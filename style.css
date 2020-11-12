@@ -1,0 +1,164 @@
+/* Media Queries */
+@media (max-width: 1019px) and (min-width: 920px) {
+	.chapter img {
+		height: 200px!important;
+	}
+	.chapter p {
+		font-size: 14px!important;
+	}
+}
+@media (max-width: 919px) {
+	.chapter {
+		display: block!important;
+		text-align: center!important;
+	}
+	.chapter p {
+		margin-left: 0!important;
+	}
+}
+@media (max-width: 992px) and (min-width: 768px) {
+	a {
+		margin: 2px!important;
+	}
+	.header-container {
+		padding: 4px 16px;
+	}
+}
+@media (max-width: 959px) {
+	.fa-bars {
+		display: block!important;
+	}
+}
+
+/* To copy for all pages */
+body, html {
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+.fa-bars {
+	display: none;
+	color: white;
+	position: absolute;
+	right: 24px;
+}
+
+header {
+	background-color: #b71c1c;
+	font-weight: 500;
+	box-shadow: 1px 1px 10px black;
+	position: fixed;
+  	top: 0;
+  	width: 100%;
+}
+.links a {
+	text-shadow: 1px 1px 5px darkgray;
+}
+a {
+	color: white;
+	text-decoration: none;
+	justify-content: center;
+	margin: 4px;
+}
+a:hover {
+	text-decoration: underline;
+	text-shadow: none;
+}
+.links {
+	margin-left: 8px;
+}
+.header-container {
+	display: flex;
+	align-items: center;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.header-container img {
+	height: 72px;
+	margin: 8px;
+}
+.social-links {
+	margin-left: auto;
+	order: 2;
+	color: white;
+}
+.social-links i {
+	margin: 4px;
+}
+
+.container {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.button {
+	padding: 10px 24px;
+	border-radius: 2px;
+	text-shadow: 2px 2px 40px white;
+	margin: 4px;
+}
+
+footer {
+	background-color: #1d2d50;
+	text-align: center;
+	color: white;
+	padding: 24px;
+	padding-bottom: 56px;
+}
+.footer {
+	background-color: #16213e;
+	margin: 0;
+	color: white;
+	text-align: center;
+	padding: 16px;
+	border-top: 2px solid rgba(0,0,0,0.4);
+}
+.fa-graduation-cap {
+	color: orange;
+	font-size: 60px;
+}
+
+/* Specific to this one */
+.welcome-text {
+	padding-top: 200px;
+	color: white;
+	height: 36vh;
+    line-height: 20px;
+	background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5) ), url('img/college.jpg');
+	text-align: center;
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-size: 100%;
+}
+.chapter {
+	display: flex;
+	text-align: justify;
+	align-items: center;
+	justify-content: center;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 16px;
+}
+.chapter img {
+	height: 300px;
+	border-radius: 4px;
+	box-shadow: 1px 1px 8px black;
+}
+.benefits {
+	display: inline-block;
+}
+.blurb-row {
+	margin-top: 16px;
+	margin-bottom: 56px
+}
+.blurb {
+	width: 12%;
+	text-align: center;
+	display: inline-table;
+	margin-top: 16px;
+}
